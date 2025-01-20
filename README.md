@@ -4,7 +4,7 @@
 This is a simple Hangman-style quiz game where players must save "Nadhif" by answering questions correctly. The game is part of the **30 Days Marathon Python Code** challenge organized by **Bagus (Gede Tanock)**, specifically on **Day 14**.
 
 ### Game Rules:
-1. You must answer the given question correctly to save Budi.
+1. You must answer the given question correctly to save Nadhif.
 2. Nadhif has **6 lives**.
 3. Each incorrect answer **reduces Nadhif's life by 1**.
 4. The game continues until either:
