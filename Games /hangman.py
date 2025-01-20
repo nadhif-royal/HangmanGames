@@ -23,9 +23,9 @@ if ready == 'y':
     with open('Day14_Project2/jawaban.txt', 'r') as f:
         list_jawaban = f.readlines()
     
-    nyawa_budi = 6  
+    nyawa_nadhif = 6  
     
-    while nyawa_budi > 0:
+    while nyawa_nadhif > 0:
         # Print hangman dari bahan sesuai jumlah kesalahan
         print(bahan.hangman[6 - nyawa_budi])
 
@@ -43,9 +43,9 @@ if ready == 'y':
             print(bahan.congrats)
         else:
             print(f'Jawaban salah! Jawaban yang benar: {correct_answer}')
-            nyawa_budi -= 1
+            nyawa_nadhif -= 1
             
-        if nyawa_budi == 0:
+        if nyawa_nadhif == 0:
             print(bahan.rose)
             print('Kamu gagal menyelamatkan Nadhif!')
             break
