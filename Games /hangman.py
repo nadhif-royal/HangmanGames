@@ -10,7 +10,7 @@ print(bahan.title)
 # Aturan permainan
 print('''Aturan Permainan :
 1. Selamatkan 'Nadhif' dengan cara menjawab pertanyaan dengan benar!
-2. Budi hanya memiliki 6 nyawa!
+2. Nadhif hanya memiliki 6 nyawa!
 3. 1 Kesalahan akan mengurangi 1 nyawa Nadhif!
 ''')
 
