@@ -14,7 +14,7 @@ print('''Aturan Permainan :
 3. 1 Kesalahan akan mengurangi 1 nyawa Nadhif!
 ''')
 
-ready = input('Nyawa Budi ada di tanganmu, apakah kamu siap (y/n)? ').strip().lower()
+ready = input('Nyawa Nadhif ada di tanganmu, apakah kamu siap (y/n)? ').strip().lower()
 
 if ready == 'y':
     with open('Day14_Project2/pertanyaan.txt', 'r') as f:
@@ -47,7 +47,7 @@ if ready == 'y':
             
         if nyawa_budi == 0:
             print(bahan.rose)
-            print('Kamu gagal menyelamatkan Budi!')
+            print('Kamu gagal menyelamatkan Nadhif!')
             break
 
         next_question = input('Lanjut ke pertanyaan berikutnya? (y/n): ').strip().lower()
