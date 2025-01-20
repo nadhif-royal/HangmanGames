@@ -33,8 +33,8 @@ This is a simple Hangman-style quiz game where players must save "Nadhif" by ans
    ```
 
 ## File Structure
-- `hangman.py`: The main Python script that runs the game.
-- `bahan.py`: Main Program - Contains game assets such as Hangman visuals and messages.
+- `hangman.py` (Main Program): The main Python script that runs the game.
+- `bahan.py`: Contains game assets such as Hangman visuals and messages.
 - `pertanyaan.txt`: A text file containing quiz questions.
 - `jawaban.txt`: A text file containing correct answers corresponding to `pertanyaan.txt`.
 
